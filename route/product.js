@@ -11,6 +11,7 @@ let home = async (req, res, next) => {
         query2 += ` where category_id = '${req.query.cateid}'`
     }
 
+
     
     let result2 = await connect.query(query2)
     console.log(result2)

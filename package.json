@@ -1,7 +1,6 @@
 {
-  "name": "webdesign",
+  "name": "dependencies",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +15,7 @@
     "cookie-session": "^2.0.0",
     "crypto": "^1.0.1",
     "ejs": "^3.1.8",
+    "express": "^4.18.2",
     "express-flash-notification": "^0.5.0",
     "express-toastr": "^2.0.2",
     "multer": "^1.4.5-lts.1",
@@ -24,5 +24,14 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamPhuong123/final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NamPhuong123/final/issues"
+  },
+  "homepage": "https://github.com/NamPhuong123/final#readme",
+  "description": ""
 }
